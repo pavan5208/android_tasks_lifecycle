@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">android_sample</string>
+    <string name="task_name">com.sample.task</string>
+</resources>
