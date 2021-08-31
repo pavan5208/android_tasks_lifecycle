@@ -11,7 +11,7 @@ app for given requirements. I have opted serverless Firebase for this. I have us
 file and retrieve through retrofit API call rather than SDK kind of things. The link to access the file is
 https://firebasestorage.googleapis.com/v0/b/personality-test-8f8f1.appspot.com/o/personality_test.json?alt=media&token=57f7059b-310b-4467-9a14-28426fc0a830
 
-And to store the data that was of selected options from questionnaire I have used Firebase RealTimeDatabase.
+And to store the data that was selected by user from the questionnaire I have used Firebase RealTimeDatabase.
 I have opted for creating anonymous user by default and store his selection in the user_info node. Structure would be
 ![This is an image](https://github.com/pavan5208/android_spark_personality_test/blob/master/references/Screen%20Shot%202021-08-31%20at%2011.44.37%20PM.png)
 
@@ -19,7 +19,7 @@ I have opted for creating anonymous user by default and store his selection in t
 users_info Table
 1.  |--UserIDs collections \n
 2.   |-- Each User Node has the categories list \n
-3.       |-- Each category has the SelectedItem
+3.      |-- Each category has the SelectedItem
 (like question,option selected, inner question if applicable) selected
 ![This is an image](https://github.com/pavan5208/android_spark_personality_test/blob/master/references/Screen%20Shot%202021-08-31%20at%2011.44.54%20PM.png)
 
