@@ -1,11 +1,11 @@
-<h1>**Problem Statement:**</h1>
+<h1>Problem Statement:</h1>
 Please provide some code which allows a user to answer questions for a personality test
 (both client and server), based on the data provided. You'll find a JSON file in database/personality_test.json
 The answers to the questions should be stored, and should be queryable in the future.
 Please provide an list of questions, separated by category. The resulting app should handle
  rotation and scale for tablets as well as phones.
 
-##Approach Selected
+<h1>Approach Selected<h1>
 As I was from Android Development my main focus is building an scalable
 app for given requirements. I have opted serverless Firebase for this. I have used Firebase store to save the JSON
 file and retrieve through retrofit API call rather than SDK kind of things. The link to access the file is
@@ -20,6 +20,7 @@ users_info Table
 1.  |--UserIDs collections \n
 2.   |-- Each User Node has the categories list \n
 3.       |-- Each category has the SelectedItem(like question,option selected, inner question if applicable) selected
+
 ![This is an image](https://github.com/pavan5208/android_spark_personality_test/blob/master/references/Screen%20Shot%202021-08-31%20at%2011.44.54%20PM.png)
 
 
