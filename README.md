@@ -17,8 +17,8 @@ I have opted for creating anonymous user by default and store his selection in t
 
 
 users_info Table
-1.  |--UserIDs collections \n
-2.     |-- Each User Node has the categories list \n
+1.  |--UserIDs collections
+2.     |-- Each User Node has the categories list
 3.       |-- Each category has the SelectedItem
 (like question,option selected, inner question if applicable) selected
 ![This is an image](https://github.com/pavan5208/android_spark_personality_test/blob/master/references/Screen%20Shot%202021-08-31%20at%2011.44.54%20PM.png)
@@ -29,15 +29,15 @@ provides loose coupling of things and testing can also be performed with ease. I
 to demonstrate my knowledge on dependency injection.
 
 As clean architecture Has mainly 3 layers
-domain
-data
-Presentation
+1. domain
+3. data
+3. Presentation
 
 Our code is divided into above mentioned packages we can say
-domain -- Models & RepoInterface will be places
-data  -- API Service and RepoImpl are places
-ui   -- Activities, Fragments, ViewModels are placed
-di  -- Dagger related stuff like  component and modules are placed
+1. domain -- Models & RepoInterface will be places
+2. data  -- API Service and RepoImpl are places
+3. ui   -- Activities, Fragments, ViewModels are placed
+4. di  -- Dagger related stuff like  component and modules are placed
 
 
 Coming to tests part I have implemented  Unit tests with Junit and Mockito, Also written integration or automation tests with
