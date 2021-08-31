@@ -17,9 +17,10 @@ I have opted for creating anonymous user by default and store his selection in t
 
 
 users_info Table
-1.  |--UserIDs collections
- 1.a.   |-- Each User Node has the categories list
-   1.a.a        |-- Each category has the SelectedItem(like question,option selected, inner question if applicable) selected
+1.  |--UserIDs collections \n
+2.   |-- Each User Node has the categories list \n
+3.       |-- Each category has the SelectedItem(like question,option selected, inner question if applicable) selected
+![This is an image](https://github.com/pavan5208/android_spark_personality_test/blob/master/references/Screen%20Shot%202021-08-31%20at%2011.44.54%20PM.png)
 
 
 I have chosen MVVM with clean architecture for this project because it
