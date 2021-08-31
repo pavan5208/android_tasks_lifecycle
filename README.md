@@ -5,7 +5,7 @@ The answers to the questions should be stored, and should be queryable in the fu
 Please provide an list of questions, separated by category. The resulting app should handle
  rotation and scale for tablets as well as phones.
 
-<h1>Approach Selected<h1>
+<h1>Approach Selected</h1>
 As I was from Android Development my main focus is building an scalable
 app for given requirements. I have opted serverless Firebase for this. I have used Firebase store to save the JSON
 file and retrieve through retrofit API call rather than SDK kind of things. The link to access the file is
@@ -19,8 +19,8 @@ I have opted for creating anonymous user by default and store his selection in t
 users_info Table
 1.  |--UserIDs collections \n
 2.   |-- Each User Node has the categories list \n
-3.       |-- Each category has the SelectedItem(like question,option selected, inner question if applicable) selected
-
+3.       |-- Each category has the SelectedItem
+(like question,option selected, inner question if applicable) selected
 ![This is an image](https://github.com/pavan5208/android_spark_personality_test/blob/master/references/Screen%20Shot%202021-08-31%20at%2011.44.54%20PM.png)
 
 
